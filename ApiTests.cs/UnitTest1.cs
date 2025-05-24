@@ -20,7 +20,7 @@ namespace ApiTestingDemo
         [OneTimeTearDown]
         public void Cleanup()
         {
-            client.Dispose(); // Това премахва warning-а
+            client.Dispose(); 
         }
 
         [Test]
